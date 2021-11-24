@@ -1,18 +1,18 @@
-# <center>自定义spring-boot-starter示例</center>
+# <center>自定义 spring-boot-starter 示例</center>
 
 ## 简介
 包含两个模块
 
-### demo-spring-boot-auto-configuration
+## demo-spring-boot-auto-configuration
 自动配置模块
 
-### demo-spring-boot-start
+## demo-spring-boot-start
 starter模块依赖自动配置模块
 
 
 ## 安装
 
-Root下运行 `mvn clean install`
+项目根目录下运行 `mvn clean install`
 
 
 ## 使用
