@@ -1,4 +1,4 @@
-# 自定义spring-boot-starter示例
+# <center>自定义spring-boot-starter示例</center>
 
 ## 简介
 包含两个模块
@@ -27,7 +27,7 @@ Root下运行 `mvn clean install`
   </dependency>
 ```
 
-- application.properties(.yml)配置
+- `application.properties(.yml)`配置
 ```
 com.egsee.demo.hello.to = egsee
 com.egsee.demo.hello.message = This is a test spring-boot starter
