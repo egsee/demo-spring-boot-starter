@@ -1,0 +1,3 @@
+# springboot will scan this configuration
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+com.egsee.demo.configuration.HelloAutoConfiguration
