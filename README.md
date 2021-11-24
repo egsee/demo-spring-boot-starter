@@ -1,4 +1,4 @@
-#自定义spring-boot-starter示例
+# 自定义spring-boot-starter示例
 
 ## 简介
 包含两个模块
@@ -10,14 +10,14 @@
 starter模块依赖自动配置模块
 
 
-##安装
+## 安装
 
 Root下运行 `mvn clean install`
 
 
-##使用
+## 使用
 
-maven项目 `pom.xml` 中添加依赖
+- maven项目 `pom.xml` 中添加依赖
 
 ```xml
  <dependency>
@@ -27,13 +27,13 @@ maven项目 `pom.xml` 中添加依赖
   </dependency>
 ```
 
-application.properties(.yml)配置
+- application.properties(.yml)配置
 ```
 com.egsee.demo.hello.to = egsee
 com.egsee.demo.hello.message = This is a test spring-boot starter
 ```
 
-使用服务
+- 使用服务
 ```java
 import com.egsee.demo.service.HelloService;
 import org.springframework.beans.factory.annotation.Autowired;
